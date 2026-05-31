@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah | Professional Graphic Designer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+}
+
+header{
+    background:#000;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#ffb400;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffb400;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+}
+
+.hero-content h1{
+    font-size:60px;
+}
+
+.hero-content span{
+    color:#ffb400;
+}
+
+.hero-content p{
+    margin:20px auto;
+    max-width:700px;
+    color:#ccc;
+}
+
+.btn{
+    display:inline-block;
+    background:#ffb400;
+    color:#000;
+    padding:12px 30px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.title h2{
+    font-size:40px;
+    color:#ffb400;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.about img{
+    width:100%;
+    border-radius:20px;
+}
+
+.about-text p{
+    color:#ccc;
+    line-height:1.8;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.service-box{
+    background:#1b1b1b;
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.service-box:hover{
+    transform:translateY(-10px);
+}
+
+.service-box h3{
+    color:#ffb400;
+    margin-bottom:15px;
+}
+
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project{
+    overflow:hidden;
+    border-radius:15px;
+}
+
+.project img{
+    width:100%;
+    display:block;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:15px 0;
+    color:#ccc;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo"> Abdullah</div>
+    
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Abdullah</span></h1>
+        <h2>Professional Graphic Designer</h2>
+        <p>
+            I create stunning YouTube thumbnails, logos,
+            social media posts, branding designs and marketing materials
+            that help businesses grow.
+        </p>
+
+        <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+</section>
+
+<section id="about">
+    <div class="title">
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about">
+       <img src="D:\potfolio/my photo.jpeg" alt="Abdullah">
+
+        <div class="about-text">
+            <p>
+                Hello! I'm Abdullah, a creative Graphic Designer with a passion
+                for creating eye-catching visuals. My expertise includes
+                YouTube thumbnails, logo design, social media graphics,
+                branding, and promotional content.
+            </p>
+
+            <br>
+
+            <p>
+                I focus on creating professional designs that increase engagement,
+                improve brand identity, and help clients achieve their goals.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="title">
+        <h2>My Services</h2>
+    </div>
+
+    <div class="services">
+
+        <div class="service-box">
+            <h3>YouTube Thumbnails</h3>
+            <p>High CTR thumbnails that attract more clicks.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Logo Design</h3>
+            <p>Professional and memorable brand identities.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Social Media Posts</h3>
+            <p>Instagram, Facebook and TikTok graphics.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Branding</h3>
+            <p>Business cards, banners and marketing materials.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="title">
+        <h2> <u>Progects </u></h2>
+    </div>
+
+    <div class="portfolio">
+
+        <div class="project">
+            <img src="D:\logos by abdullah/20i6.jpg" alt="">
+        </div>
+
+        <div class="project">
+            <img src="D:\logos by abdullah/THUMBNAIS.jpg" alt="">
+        </div>
+
+        <div class="project">
+            <img src="D:\logos by abdullah/TOYOTA.jpg" alt="">
+        </div>
+
+        <div class="project">
+            <img src="D:\logos by abdullah/Hussain Food Corner.jpg" alt="">
+        </div>
+
+        <div class="project">
+            <img src="D:\logos by abdullah/man.jpg" alt="" width="1000" height="350">
+        </div>
+
+        <div class="project">
+            <img src="D:\logos by abdullah/logo.jpg" alt="" width="1000" height="350">
+        </div>
+        <div class="project">
+            <img src="D:\logos by abdullah/Super Delicious.jpg" alt="" width="1450" height="350">
+        </div>
+         <div class="project">
+            <img src="D:\logos by abdullah/ORANG.jpg" alt="" width="1450" height="350">
+        </div> 
+        <div class="project">
+            <img src="D:\logos by abdullah/Friend Bakery.jpg" alt="" width="1450" height="350">
+        </div>  
+    </div>
+</section>
+
+<section id="contact">
+    <div class="title">
+        <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact">
+        <p>Email: abdullahkash354@gmail.com</p>
+        <p>WhatsApp: +92332838592</p>
+
+        <a href="https://www.fiverr.com/avvab2256?public_mode=true" class="btn">Hire Me</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Abdullah | Professional Graphic Designer</p>
+</footer>
+
+</body>
+</html>
